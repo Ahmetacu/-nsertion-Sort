@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnsertion Sort</title>
+</head>
+<body>
+    <h1>Selection Sort Projesi</h1>
+    <h2>Proje 1</h2>
+    <p><strong>[22,27,16,2,18,6]</strong>-> Insertion Sort </p>
+    <p>Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.</p>
+    <p>Big-O gösterimini yazınız.</p>
+    <p>Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız</p>
+    <ol>
+        <li>Average case: Aradığımız sayının ortada olması</li>
+        <li>Worst case: Aradığımız sayının sonda olması</li>
+        <li>Best case: Aradığımız sayının dizinin en başında olması.</li>
+    </ol>
+    <p> <strong>[7,3,5,8,2,9,4,15,6]</strong> dizisinin Selection Sort'a göre ilk 4 adımını yazınız.</p>
+<h2>İnsertion Sort Aşamaları</h2>
+<ol>
+    <li>Örüntünün en küçük elemanı(2) bulunuyor ve ilk eleman (22) ile yeri değiştiriliyor. <strong>[2,27,16,22,18,6]</strong></li>
+    <li>Örüntünün ikinci en küçük elemanı (6) bulunuyor ve örüntünün ikinci elemanı(27) ile yeri değiştiriliyor. <strong>[2,6,16,22,18,27]</strong> </li>
+    <li>Örüntünün üçüncü en küçük elemanı (16) bulunuyor ve örüntünün üçüncü elemanı(16) ile yeri değiştiriliyor.Burada aynı olduğu için bir yer değiştirme olmuyor. <strong>[2,6,16,22,18,27]</strong></li>
+    <li>Örüntünün dördüncü en küçük elemanı (18) bulunuyor ve örüntünün dördüncü elemanı(22) ile yeri değiştiriliyor.Bundan sonra herhangi bir yer değiştirmeye gerek kalmıyor. <strong>[2,6,16,18,22,27]</strong></li>
+</ol>
+<h2>Big-O Gösterimi</h2>
+<p>O(n^2) </p>
+<h3>Time  Complexity</h3>
+<p>Dizi sıralandıktan sonra <strong>[2,6,16,18,22,27]</strong> şeklinde olur. Örüntünün ortasında yer alacağı için <strong>Average Case</strong>kapsamına girer.</p>
+<h3>[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a Göre İlk 4 Adımı</h3>
+<ol>
+    <li>[2,3,5,8,7,9,4,15,6]</li>
+    <li>[2,3,5,8,7,9,4,15,6]</li>
+    <li>[2,3,4,8,7,9,5,15,6]</li>
+    <li>[2,3,4,5,7,9,8,15,6]</li>
+</ol>
+</body>
+</html>
